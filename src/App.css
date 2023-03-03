@@ -1,0 +1,31 @@
+:root {  
+  
+  --black: hsla(309, 8%, 17%, 1);
+  --onyx: hsla(189, 6%, 22%, 1);
+  --jet: hsla(200, 10%, 28%, 1);
+  --cadet: hsla(180, 9%, 55%, 1);
+  --ash: hsla(79, 10%, 68%, 1);
+  --platinum: hsla(96, 7%, 86%, 1);
+  --mint: hsla(166, 100%, 93%, 1);
+  --snow: hsla(348, 100%, 99%, 1);
+  --tomato: hsla(10, 90%, 60%, 1);
+
+  background-color: var(--snow);
+  color: var(--jet);
+  margin: 0;
+  --font-main: 'cairo_playregular', 'Ubuntu', 'Cantarell', 'Public Sans', sans-serif;  
+}
+
+@font-face {
+    font-family: 'cairo_playregular';
+    src: url('./assets/webfontkit-20230225-133034/cairoplay-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('./assets/webfontkit-20230225-133034/cairoplay-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  height: 100%;
+}
+
+

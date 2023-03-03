@@ -1,0 +1,38 @@
+
+.quote-container {
+  flex: 1;
+  font-family: var(--font-main);
+  min-height: 67vh;
+  max-width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5em 0em 1em 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+h1 {
+  color: var(--jet);
+  z-index: 1;
+}
+
+.quote-box {
+  color: var(--jet);
+  display: flex;
+  flex-direction: column;
+}
+
+.author-wrap {
+  text-align: center;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  height: 40vh;
+}
